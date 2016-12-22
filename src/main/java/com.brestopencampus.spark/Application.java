@@ -43,7 +43,7 @@ public class Application {
 
   private static DB mongo() throws Exception {
     String host = System.getenv("MONGODB_ADDON_HOST");
-    int port = Integer.parseInt(Sytem.getenv("MONGODB_ADDON_PORT")); //27017;Integer.parseInt(System.getenv("MONGODB_DB_PORT"));
+    int port = Integer.parseInt(System.getenv("MONGODB_ADDON_PORT")); //27017;Integer.parseInt(System.getenv("MONGODB_DB_PORT"));
     String dbname =  System.getenv("MONGODB_ADDON_DB");//"HelloSpark";//System.getenv("HelloSpark");
     String username = System.getenv("MONGODB_ADDON_USER");
     String password = System.getenv("MONGODB_ADDON_PASSWORD");
